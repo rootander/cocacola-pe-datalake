@@ -1,0 +1,19 @@
+2025-06-01 07:30:00 INFO  Sales import process started
+2025-06-01 07:30:02 INFO  Source system: OLTP_CocaCola
+2025-06-01 07:30:05 INFO  Reading sales transactions
+2025-06-01 07:30:15 INFO  Transaction VTA-2025-000151 imported
+2025-06-01 07:30:16 INFO  Transaction VTA-2025-000152 imported
+2025-06-01 07:30:17 INFO  Transaction VTA-2025-000153 imported
+2025-06-01 07:30:18 INFO  Transaction VTA-2025-000154 imported
+2025-06-01 07:30:25 INFO  Customer validation completed
+2025-06-01 07:30:35 INFO  Product validation completed
+2025-06-01 07:30:45 INFO  Route validation completed
+2025-06-01 07:30:55 INFO  Loading records into Bronze Layer
+2025-06-01 07:31:12 INFO  Records loaded successfully: 1250
+2025-06-01 07:31:18 INFO  Data quality checks executed
+2025-06-01 07:31:20 INFO  Invalid records found: 3
+2025-06-01 07:31:25 WARN  Missing delivery date detected in transaction VTA-2025-000121
+2025-06-01 07:31:27 WARN  Customer code not found in transaction VTA-2025-000088
+2025-06-01 07:31:30 WARN  Invalid route code detected in transaction VTA-2025-000099
+2025-06-01 07:31:45 INFO  Error records moved to quarantine area
+2025-06-01 07:32:00 INFO  Sales import process completed successfully

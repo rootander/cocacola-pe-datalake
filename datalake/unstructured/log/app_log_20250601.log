@@ -1,0 +1,17 @@
+2025-06-01 06:00:12 INFO  Application Startup
+2025-06-01 06:00:13 INFO  Loading configuration files
+2025-06-01 06:00:14 INFO  Database connection established
+2025-06-01 06:00:15 INFO  Connected to OLTP_CocaCola
+2025-06-01 06:00:18 INFO  User admin logged in
+2025-06-01 06:15:23 INFO  Sales dashboard requested
+2025-06-01 06:15:24 INFO  Query executed successfully
+2025-06-01 07:30:11 INFO  ETL process started
+2025-06-01 07:30:45 INFO  Sales records extracted: 1250
+2025-06-01 07:31:12 INFO  Customer records extracted: 420
+2025-06-01 07:31:55 INFO  Product records extracted: 185
+2025-06-01 07:32:44 INFO  ETL process completed successfully
+2025-06-01 12:15:08 WARN  Slow response detected on sales query
+2025-06-01 12:15:12 INFO  Query optimization applied
+2025-06-01 18:00:01 INFO  Daily backup initiated
+2025-06-01 18:05:22 INFO  Daily backup completed
+2025-06-01 23:59:59 INFO  Application shutdown
