@@ -2,7 +2,9 @@
 
 # Azure Data Lake Storage Gen2 Architecture
 
-<div align="center">
+<p align="center">
+  <img src="docs/banner.png" width="100%">
+</p>
 
 ### Enterprise Cloud Data Platform Simulation
 
@@ -30,7 +32,9 @@ The solution demonstrates how enterprise data can be managed from its initial in
 # 🏛️ Architecture Used
 
 ## Medallion Architecture
-
+<p align="center">
+  <img src="docs/medallion.png" width="850">
+</p>
 The Data Lake follows the **Medallion Architecture Pattern**, a modern data engineering approach widely adopted in cloud platforms.
 
 ```text
