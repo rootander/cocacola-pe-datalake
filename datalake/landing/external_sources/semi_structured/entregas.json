@@ -1,0 +1,1309 @@
+[
+  {
+    "id_log": "LOG-001",
+    "tiempo": {
+      "id_tiempo": 20260601,
+      "fecha": "2026-06-01"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Lunes-01",
+      "transito_min": 145,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Roberto Gomez",
+      "cliente": "Minimarket Pinos Norte",
+      "producto": "Coca-Cola 3L",
+      "cant": 24,
+      "precio": 10.5,
+      "total": 252.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-002",
+    "tiempo": {
+      "id_tiempo": 20260601,
+      "fecha": "2026-06-01"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Lunes-01",
+      "transito_min": 180,
+      "desviacion_min": 30
+    },
+    "ventas": {
+      "vendedor": "Hugo Paredes",
+      "cliente": "Distribuidora Callao",
+      "producto": "Inca Kola 1.5L",
+      "cant": 48,
+      "precio": 6.0,
+      "total": 288.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-003",
+    "tiempo": {
+      "id_tiempo": 20260601,
+      "fecha": "2026-06-01"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Luis Mejia",
+      "cliente": "Local Principal Sur",
+      "producto": "San Luis Sin Gas 2.5L",
+      "cant": 100,
+      "precio": 4.5,
+      "total": 450.0
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-004",
+    "tiempo": {
+      "id_tiempo": 20260602,
+      "fecha": "2026-06-02"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Martes-02",
+      "transito_min": 120,
+      "desviacion_min": -10
+    },
+    "ventas": {
+      "vendedor": "Victor Cruz",
+      "cliente": "Express Norte",
+      "producto": "Sprite 500ml",
+      "cant": 24,
+      "precio": 2.0,
+      "total": 48.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-005",
+    "tiempo": {
+      "id_tiempo": 20260602,
+      "fecha": "2026-06-02"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Martes-02",
+      "transito_min": 210,
+      "desviacion_min": 45
+    },
+    "ventas": {
+      "vendedor": "Felix Molina",
+      "cliente": "Mayorista Callao",
+      "producto": "Fanta 1.5L",
+      "cant": 36,
+      "precio": 5.5,
+      "total": 198.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-006",
+    "tiempo": {
+      "id_tiempo": 20260603,
+      "fecha": "2026-06-03"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Miercoles-03",
+      "transito_min": 95,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Cesar Blanco",
+      "cliente": "Bodega Santa Rosa",
+      "producto": "Inca Kola Zero 1.5L",
+      "cant": 12,
+      "precio": 6.0,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-007",
+    "tiempo": {
+      "id_tiempo": 20260603,
+      "fecha": "2026-06-03"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Miercoles-03",
+      "transito_min": 160,
+      "desviacion_min": 20
+    },
+    "ventas": {
+      "vendedor": "Renzo Valdez",
+      "cliente": "Esquina Sur",
+      "producto": "San Luis Con Gas 625ml",
+      "cant": 24,
+      "precio": 1.5,
+      "total": 36.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-008",
+    "tiempo": {
+      "id_tiempo": 20260604,
+      "fecha": "2026-06-04"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LE-Jueves-04",
+      "transito_min": 185,
+      "desviacion_min": 15
+    },
+    "ventas": {
+      "vendedor": "Oscar Pinto",
+      "cliente": "Mercado Este",
+      "producto": "Frugos Durazno 1L",
+      "cant": 20,
+      "precio": 4.0,
+      "total": 80.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-009",
+    "tiempo": {
+      "id_tiempo": 20260604,
+      "fecha": "2026-06-04"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Jueves-04",
+      "transito_min": 130,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Ivan Guerra",
+      "cliente": "Globales Callao",
+      "producto": "Powerade Mountain Blast 500ml",
+      "cant": 30,
+      "precio": 3.0,
+      "total": 90.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-010",
+    "tiempo": {
+      "id_tiempo": 20260605,
+      "fecha": "2026-06-05"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 110,
+      "desviacion_min": -5
+    },
+    "ventas": {
+      "vendedor": "Martin Lujan",
+      "cliente": "Distribuciones Sur",
+      "producto": "Coca-Cola 1.5L",
+      "cant": 60,
+      "precio": 6.0,
+      "total": 360.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-011",
+    "tiempo": {
+      "id_tiempo": 20260605,
+      "fecha": "2026-06-05"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Lunes-01",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Mario Luna",
+      "cliente": "Inversiones Norte",
+      "producto": "Inca Kola 3L",
+      "cant": 15,
+      "precio": 10.5,
+      "total": 157.5
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-012",
+    "tiempo": {
+      "id_tiempo": 20260606,
+      "fecha": "2026-06-06"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Lunes-01",
+      "transito_min": 140,
+      "desviacion_min": 10
+    },
+    "ventas": {
+      "vendedor": "Alberto Diaz",
+      "cliente": "Plaza Vea Centro",
+      "producto": "Coca-Cola 500ml",
+      "cant": 100,
+      "precio": 2.5,
+      "total": 250.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-013",
+    "tiempo": {
+      "id_tiempo": 20260606,
+      "fecha": "2026-06-06"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Martes-02",
+      "transito_min": 190,
+      "desviacion_min": 25
+    },
+    "ventas": {
+      "vendedor": "Paco Salazar",
+      "cliente": "Comercial El Sol",
+      "producto": "Fanta 500ml",
+      "cant": 48,
+      "precio": 2.0,
+      "total": 96.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-014",
+    "tiempo": {
+      "id_tiempo": 20260607,
+      "fecha": "2026-06-07"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Martes-02",
+      "transito_min": 150,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Omar Cabrera",
+      "cliente": "Bodega San Judas Sur",
+      "producto": "San Luis Sin Gas 625ml",
+      "cant": 24,
+      "precio": 1.5,
+      "total": 36.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-015",
+    "tiempo": {
+      "id_tiempo": 20260607,
+      "fecha": "2026-06-07"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LE-Martes-02",
+      "transito_min": 220,
+      "desviacion_min": 60
+    },
+    "ventas": {
+      "vendedor": "David Acosta",
+      "cliente": "Conveniencia Este",
+      "producto": "Frugos Manzana 1L",
+      "cant": 12,
+      "precio": 4.0,
+      "total": 48.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-016",
+    "tiempo": {
+      "id_tiempo": 20260608,
+      "fecha": "2026-06-08"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Miercoles-03",
+      "transito_min": 115,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Bruno Gil",
+      "cliente": "Globales Callao",
+      "producto": "Sprite 1.5L",
+      "cant": 24,
+      "precio": 5.5,
+      "total": 132.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-017",
+    "tiempo": {
+      "id_tiempo": 20260608,
+      "fecha": "2026-06-08"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Miercoles-03",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Raul Soto",
+      "cliente": "Bodega Pepe Este",
+      "producto": "Inca Kola 500ml",
+      "cant": 48,
+      "precio": 2.5,
+      "total": 120.0
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-018",
+    "tiempo": {
+      "id_tiempo": 20260609,
+      "fecha": "2026-06-09"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Jueves-04",
+      "transito_min": 135,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Julio Reyes",
+      "cliente": "24 Horas Norte",
+      "producto": "Powerade Frutas Tropicales 500ml",
+      "cant": 24,
+      "precio": 3.0,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-019",
+    "tiempo": {
+      "id_tiempo": 20260609,
+      "fecha": "2026-06-09"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Jueves-04",
+      "transito_min": 200,
+      "desviacion_min": 35
+    },
+    "ventas": {
+      "vendedor": "Sergio Paz",
+      "cliente": "Buen Vecino Centro",
+      "producto": "Frugos Naranja 1L",
+      "cant": 30,
+      "precio": 4.0,
+      "total": 120.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-020",
+    "tiempo": {
+      "id_tiempo": 20260610,
+      "fecha": "2026-06-10"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 105,
+      "desviacion_min": -10
+    },
+    "ventas": {
+      "vendedor": "Pablo Vera",
+      "cliente": "Local Principal Sur",
+      "producto": "Coca-Cola 3L",
+      "cant": 10,
+      "precio": 10.5,
+      "total": 105.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-021",
+    "tiempo": {
+      "id_tiempo": 20260610,
+      "fecha": "2026-06-10"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Lunes-01",
+      "transito_min": 155,
+      "desviacion_min": 15
+    },
+    "ventas": {
+      "vendedor": "Roberto Gomez",
+      "cliente": "Bodega Central Este",
+      "producto": "Inca Kola 1.5L",
+      "cant": 36,
+      "precio": 6.0,
+      "total": 216.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-022",
+    "tiempo": {
+      "id_tiempo": 20260611,
+      "fecha": "2026-06-11"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Lunes-01",
+      "transito_min": 175,
+      "desviacion_min": 20
+    },
+    "ventas": {
+      "vendedor": "Hugo Paredes",
+      "cliente": "Globales Callao",
+      "producto": "Coca-Cola Zero 1.5L",
+      "cant": 12,
+      "precio": 6.0,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-023",
+    "tiempo": {
+      "id_tiempo": 20260611,
+      "fecha": "2026-06-11"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Luis Mejia",
+      "cliente": "Esquina Sur",
+      "producto": "San Luis Sin Gas 2.5L",
+      "cant": 50,
+      "precio": 4.5,
+      "total": 225.0
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-024",
+    "tiempo": {
+      "id_tiempo": 20260612,
+      "fecha": "2026-06-12"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Martes-02",
+      "transito_min": 130,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Victor Cruz",
+      "cliente": "Inversiones Norte",
+      "producto": "Inca Kola 3L",
+      "cant": 10,
+      "precio": 10.5,
+      "total": 105.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-025",
+    "tiempo": {
+      "id_tiempo": 20260612,
+      "fecha": "2026-06-12"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Martes-02",
+      "transito_min": 205,
+      "desviacion_min": 40
+    },
+    "ventas": {
+      "vendedor": "Felix Molina",
+      "cliente": "Distribuidora Callao",
+      "producto": "Fanta 1.5L",
+      "cant": 24,
+      "precio": 5.5,
+      "total": 132.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-026",
+    "tiempo": {
+      "id_tiempo": 20260613,
+      "fecha": "2026-06-13"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Miercoles-03",
+      "transito_min": 100,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Cesar Blanco",
+      "cliente": "Bodega Santa Rosa",
+      "producto": "Sprite 1.5L",
+      "cant": 36,
+      "precio": 5.5,
+      "total": 198.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-027",
+    "tiempo": {
+      "id_tiempo": 20260613,
+      "fecha": "2026-06-13"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Miercoles-03",
+      "transito_min": 155,
+      "desviacion_min": 15
+    },
+    "ventas": {
+      "vendedor": "Renzo Valdez",
+      "cliente": "Local Principal Sur",
+      "producto": "San Luis Con Gas 625ml",
+      "cant": 48,
+      "precio": 1.5,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-028",
+    "tiempo": {
+      "id_tiempo": 20260614,
+      "fecha": "2026-06-14"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LE-Jueves-04",
+      "transito_min": 195,
+      "desviacion_min": 25
+    },
+    "ventas": {
+      "vendedor": "Oscar Pinto",
+      "cliente": "Bodega Central Este",
+      "producto": "Frugos Durazno 1L",
+      "cant": 12,
+      "precio": 4.0,
+      "total": 48.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-029",
+    "tiempo": {
+      "id_tiempo": 20260614,
+      "fecha": "2026-06-14"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Jueves-04",
+      "transito_min": 125,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Ivan Guerra",
+      "cliente": "Mayorista Callao",
+      "producto": "Powerade Mountain Blast 500ml",
+      "cant": 60,
+      "precio": 3.0,
+      "total": 180.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-030",
+    "tiempo": {
+      "id_tiempo": 20260615,
+      "fecha": "2026-06-15"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 115,
+      "desviacion_min": -5
+    },
+    "ventas": {
+      "vendedor": "Martin Lujan",
+      "cliente": "Distribuciones Sur",
+      "producto": "Coca-Cola 500ml",
+      "cant": 72,
+      "precio": 2.5,
+      "total": 180.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-031",
+    "tiempo": {
+      "id_tiempo": 20260615,
+      "fecha": "2026-06-15"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Lunes-01",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Mario Luna",
+      "cliente": "Express Norte",
+      "producto": "Inca Kola Zero 1.5L",
+      "cant": 24,
+      "precio": 6.0,
+      "total": 144.0
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-032",
+    "tiempo": {
+      "id_tiempo": 20260616,
+      "fecha": "2026-06-16"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Lunes-01",
+      "transito_min": 145,
+      "desviacion_min": 15
+    },
+    "ventas": {
+      "vendedor": "Alberto Diaz",
+      "cliente": "Buen Vecino Centro",
+      "producto": "Sprite 500ml",
+      "cant": 48,
+      "precio": 2.0,
+      "total": 96.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-033",
+    "tiempo": {
+      "id_tiempo": 20260616,
+      "fecha": "2026-06-16"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Martes-02",
+      "transito_min": 185,
+      "desviacion_min": 20
+    },
+    "ventas": {
+      "vendedor": "Paco Salazar",
+      "cliente": "Distribuidora Callao",
+      "producto": "Fanta 500ml",
+      "cant": 24,
+      "precio": 2.0,
+      "total": 48.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-034",
+    "tiempo": {
+      "id_tiempo": 20260617,
+      "fecha": "2026-06-17"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Martes-02",
+      "transito_min": 160,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Omar Cabrera",
+      "cliente": "Esquina Sur",
+      "producto": "San Luis Sin Gas 625ml",
+      "cant": 36,
+      "precio": 1.5,
+      "total": 54.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-035",
+    "tiempo": {
+      "id_tiempo": 20260617,
+      "fecha": "2026-06-17"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LE-Martes-02",
+      "transito_min": 215,
+      "desviacion_min": 55
+    },
+    "ventas": {
+      "vendedor": "David Acosta",
+      "cliente": "Mercado Este",
+      "producto": "Frugos Manzana 1L",
+      "cant": 6,
+      "precio": 4.0,
+      "total": 24.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-036",
+    "tiempo": {
+      "id_tiempo": 20260618,
+      "fecha": "2026-06-18"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Miercoles-03",
+      "transito_min": 120,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Bruno Gil",
+      "cliente": "Mayorista Callao",
+      "producto": "Coca-Cola 3L",
+      "cant": 12,
+      "precio": 10.5,
+      "total": 126.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-037",
+    "tiempo": {
+      "id_tiempo": 20260618,
+      "fecha": "2026-06-18"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Miercoles-03",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Raul Soto",
+      "cliente": "Bodega Santa Rosa",
+      "producto": "Inca Kola 1.5L",
+      "cant": 24,
+      "precio": 6.0,
+      "total": 144.0
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-038",
+    "tiempo": {
+      "id_tiempo": 20260619,
+      "fecha": "2026-06-19"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Jueves-04",
+      "transito_min": 140,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Julio Reyes",
+      "cliente": "Minimarket Pinos Norte",
+      "producto": "Powerade Frutas Tropicales 500ml",
+      "cant": 12,
+      "precio": 3.0,
+      "total": 36.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-039",
+    "tiempo": {
+      "id_tiempo": 20260619,
+      "fecha": "2026-06-19"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Jueves-04",
+      "transito_min": 210,
+      "desviacion_min": 45
+    },
+    "ventas": {
+      "vendedor": "Sergio Paz",
+      "cliente": "Plaza Vea Centro",
+      "producto": "Frugos Naranja 1L",
+      "cant": 18,
+      "precio": 4.0,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-040",
+    "tiempo": {
+      "id_tiempo": 20260620,
+      "fecha": "2026-06-20"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 110,
+      "desviacion_min": -5
+    },
+    "ventas": {
+      "vendedor": "Pablo Vera",
+      "cliente": "Bodega San Judas Sur",
+      "producto": "San Luis Sin Gas 2.5L",
+      "cant": 40,
+      "precio": 4.5,
+      "total": 180.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-041",
+    "tiempo": {
+      "id_tiempo": 20260620,
+      "fecha": "2026-06-20"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Lunes-01",
+      "transito_min": 160,
+      "desviacion_min": 20
+    },
+    "ventas": {
+      "vendedor": "Roberto Gomez",
+      "cliente": "Inversiones Norte",
+      "producto": "Coca-Cola 1.5L",
+      "cant": 12,
+      "precio": 6.0,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-042",
+    "tiempo": {
+      "id_tiempo": 20260621,
+      "fecha": "2026-06-21"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Lunes-01",
+      "transito_min": 180,
+      "desviacion_min": 25
+    },
+    "ventas": {
+      "vendedor": "Hugo Paredes",
+      "cliente": "Comercial El Sol",
+      "producto": "Inca Kola 3L",
+      "cant": 8,
+      "precio": 10.5,
+      "total": 84.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-043",
+    "tiempo": {
+      "id_tiempo": 20260621,
+      "fecha": "2026-06-21"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 0,
+      "desviacion_min": 0,
+      "comodon": -1
+    },
+    "ventas": {
+      "vendedor": "Luis Mejia",
+      "cliente": "Distribuciones Sur",
+      "producto": "San Luis Sin Gas 625ml",
+      "cant": 120,
+      "precio": 1.5,
+      "total": 180.0
+    },
+    "estado": {
+      "venta": "Emitida",
+      "entrega": "En Ruta",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-044",
+    "tiempo": {
+      "id_tiempo": 20260622,
+      "fecha": "2026-06-22"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LN-Martes-02",
+      "transito_min": 125,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Victor Cruz",
+      "cliente": "Minimarket Pinos Norte",
+      "producto": "Sprite 1.5L",
+      "cant": 12,
+      "precio": 5.5,
+      "total": 66.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-045",
+    "tiempo": {
+      "id_tiempo": 20260622,
+      "fecha": "2026-06-22"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Martes-02",
+      "transito_min": 215,
+      "desviacion_min": 50
+    },
+    "ventas": {
+      "vendedor": "Felix Molina",
+      "cliente": "Globales Callao",
+      "producto": "Fanta 1.5L",
+      "cant": 18,
+      "precio": 5.5,
+      "total": 99.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-046",
+    "tiempo": {
+      "id_tiempo": 20260623,
+      "fecha": "2026-06-23"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LC-Miercoles-03",
+      "transito_min": 105,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Cesar Blanco",
+      "cliente": "Plaza Vea Centro",
+      "producto": "Inca Kola 1.5L",
+      "cant": 30,
+      "precio": 6.0,
+      "total": 180.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-047",
+    "tiempo": {
+      "id_tiempo": 20260623,
+      "fecha": "2026-06-23"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Miercoles-03",
+      "transito_min": 165,
+      "desviacion_min": 25
+    },
+    "ventas": {
+      "vendedor": "Renzo Valdez",
+      "cliente": "Local Principal Sur",
+      "producto": "Coca-Cola 500ml",
+      "cant": 24,
+      "precio": 2.5,
+      "total": 60.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-048",
+    "tiempo": {
+      "id_tiempo": 20260624,
+      "fecha": "2026-06-24"
+    },
+    "logistica": {
+      "sede": "CD Huachipa",
+      "ruta": "Ruta LE-Jueves-04",
+      "transito_min": 190,
+      "desviacion_min": 20
+    },
+    "ventas": {
+      "vendedor": "Oscar Pinto",
+      "cliente": "Conveniencia Este",
+      "producto": "Frugos Durazno 1L",
+      "cant": 10,
+      "precio": 4.0,
+      "total": 40.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-049",
+    "tiempo": {
+      "id_tiempo": 20260624,
+      "fecha": "2026-06-24"
+    },
+    "logistica": {
+      "sede": "Planta Callao",
+      "ruta": "Ruta CAL-Jueves-04",
+      "transito_min": 135,
+      "desviacion_min": 5
+    },
+    "ventas": {
+      "vendedor": "Ivan Guerra",
+      "cliente": "Mayorista Callao",
+      "producto": "Powerade Mountain Blast 500ml",
+      "cant": 24,
+      "precio": 3.0,
+      "total": 72.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  },
+  {
+    "id_log": "LOG-050",
+    "tiempo": {
+      "id_tiempo": 20260625,
+      "fecha": "2026-06-25"
+    },
+    "logistica": {
+      "sede": "CD Lurín",
+      "ruta": "Ruta LS-Lunes-01",
+      "transito_min": 120,
+      "desviacion_min": 0
+    },
+    "ventas": {
+      "vendedor": "Martin Lujan",
+      "cliente": "Distribuciones Sur",
+      "producto": "Coca-Cola 3L",
+      "cant": 6,
+      "precio": 10.5,
+      "total": 63.0
+    },
+    "estado": {
+      "venta": "Pagada",
+      "entrega": "Entregado",
+      "tipo": "Delivery"
+    }
+  }
+]
