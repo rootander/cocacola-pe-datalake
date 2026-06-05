@@ -366,10 +366,10 @@ Design and document an enterprise-scale Azure Data Lake Storage Gen2 architectur
 
 
 # 👨‍💻 Authors
-
+Cristian Huanca 
 - Lucas Cocha — Cloud Engineer
 - Quispe Sebastian — Data Analyst
-
+- Cristian Huanca — software developer
 Enterprise Data Engineering Project
 
 Azure Data Lake Storage Gen2 Architecture
