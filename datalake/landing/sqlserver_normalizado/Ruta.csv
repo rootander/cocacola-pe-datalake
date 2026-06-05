@@ -1,0 +1,22 @@
+id_ruta,id_zona,descripcion_ruta
+0,0,No Aplica - Recojo en Planta
+1,1,Ruta LN-Lunes-01
+2,1,Ruta LN-Martes-02
+3,1,Ruta LN-Miercoles-03
+4,1,Ruta LN-Jueves-04
+5,2,Ruta LS-Lunes-01
+6,2,Ruta LS-Martes-02
+7,2,Ruta LS-Miercoles-03
+8,2,Ruta LS-Jueves-04
+9,3,Ruta LE-Lunes-01
+10,3,Ruta LE-Martes-02
+11,3,Ruta LE-Miercoles-03
+12,3,Ruta LE-Jueves-04
+13,4,Ruta LC-Lunes-01
+14,4,Ruta LC-Martes-02
+15,4,Ruta LC-Miercoles-03
+16,4,Ruta LC-Jueves-04
+17,5,Ruta CAL-Lunes-01
+18,5,Ruta CAL-Martes-02
+19,5,Ruta CAL-Miercoles-03
+20,5,Ruta CAL-Jueves-04

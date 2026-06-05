@@ -1,0 +1,21 @@
+id_sede,id_empresa,nombre_comercial,direccion_sede,id_tipo_cliente,id_zona,id_representante
+1,1,Local Principal Sur,Av. Los Héroes 123,4,2,1
+2,2,Minimarket Pinos Norte,Av. Tupac Amaru 456,2,1,2
+3,3,Bodega Central Este,Jr. Los Claveles 789,1,3,3
+4,4,Plaza Vea Centro,Av. Tacna 101,3,4,4
+5,5,Comercial El Sol,Av. Argentina 202,4,5,5
+6,6,Distribuidora Callao,Av. Saenz Peña 303,4,5,6
+7,7,Bodega San Judas Sur,Av. San Juan 404,1,2,7
+8,8,Express Norte,Av. Universitaria 505,2,1,8
+9,9,Mercado Este,Av. Proceres 606,4,3,9
+10,10,Inversiones Norte,Av. Izaguirre 707,4,1,10
+11,11,Esquina Sur,Av. Benavides 808,2,2,11
+12,12,Bodega Pepe Este,Av. Gran Chimú 909,1,3,12
+13,13,Mayorista Callao,Av. Colonial 111,4,5,13
+14,14,San Carlos Centro,Av. Arequipa 222,2,4,14
+15,15,Bodega Santa Rosa,Av. Brasil 333,1,4,15
+16,16,Distribuciones Sur,Av. Pedro Miotta 444,4,2,16
+17,17,24 Horas Norte,Av. Tomas Valle 555,2,1,17
+18,18,Conveniencia Este,Av. Las Flores 666,2,3,18
+19,19,Buen Vecino Centro,Jr. de la Unión 777,1,4,19
+20,20,Globales Callao,Av. Guardia Chalaca 888,4,5,20

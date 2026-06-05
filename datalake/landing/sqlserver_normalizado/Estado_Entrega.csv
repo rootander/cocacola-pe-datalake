@@ -1,0 +1,4 @@
+id_estado_entrega,descripcion_estado
+1,En Almacén
+2,En Ruta
+3,Entregado
