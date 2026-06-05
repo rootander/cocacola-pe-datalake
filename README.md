@@ -1,1 +1,1 @@
-# Coca-Cola Perú Data Lake (Landing → Raw → Trusted → Archive)
+# Coca-Cola Perú - Data Lake Architecture (Azure Data Lake Storage Gen2)
