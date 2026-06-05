@@ -37,21 +37,7 @@ The solution demonstrates how enterprise data can be managed from its initial in
 </p>
 The Data Lake follows the **Medallion Architecture Pattern**, a modern data engineering approach widely adopted in cloud platforms.
 
-```text
-Landing
-   │
-   ▼
-Bronze
-   │
-   ▼
-Silver
-   │
-   ▼
-Trusted
-   │
-   ▼
-Archive
-```
+
 
 ### Benefits
 
