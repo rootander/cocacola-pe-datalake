@@ -115,76 +115,21 @@ The Bronze Layer organizes raw business data by enterprise domains.
 * Sales
 * Customers
 * Products
-* Inventory
 * Logistics
-* Finance
-* Production
-* Marketing
-* Human Resources
 
 ```text
 bronze/
 ├── sales/
 ├── customers/
 ├── products/
-├── inventory/
 ├── logistics/
-├── finance/
-├── production/
-├── marketing/
-└── hr/
+
 ```
 
 ---
 
-# ⚪ Silver Layer
 
-The Silver Layer contains standardized datasets with consistent structures.
 
-## Characteristics
-
-* Standardized formats
-* Consistent schemas
-* Data organization
-* Improved usability
-
-```text
-silver/
-├── sales/
-├── customers/
-├── products/
-├── inventory/
-├── logistics/
-├── finance/
-├── production/
-└── marketing/
-```
-
----
-
-# 🟢 Trusted Layer
-
-The Trusted Layer stores validated and business-ready information.
-
-## Benefits
-
-* Reliable datasets
-* High-quality information
-* Business consumption
-* Governance compliance
-
-```text
-trusted/
-├── sales/
-├── customers/
-├── products/
-├── inventory/
-├── logistics/
-├── finance/
-└── production/
-```
-
----
 
 # ⚫ Archive Layer
 
@@ -257,17 +202,7 @@ datalake/
 │   ├── sales/
 │   ├── customers/
 │   ├── products/
-│   ├── inventory/
 │   ├── logistics/
-│   ├── finance/
-│   ├── production/
-│   ├── marketing/
-│   └── hr/
-│
-├── silver/
-│
-├── trusted/
-│
 ├── metadata/
 │
 ├── unstructured/
