@@ -1,71 +1,166 @@
-<p align="center">
-  <img src="images/architecture.png" width="1000">
-</p>
+# 🥤 Coca-Cola Perú
 
-<h1 align="center">🥤 Coca-Cola Perú</h1>
+# Azure Data Lake Storage Gen2 Architecture
 
-<h3 align="center">Azure Data Lake Storage Gen2 Architecture</h3>
+<div align="center">
 
-<p align="center">
-Enterprise Data Engineering Project
-</p>
+### Enterprise Cloud Data Platform Simulation
 
-<p align="center">
-Azure Data Lake • Cloud Storage • Data Governance • Metadata Management
-</p>
+Azure Data Lake Storage Gen2 • Data Governance • Metadata Management • Cloud Architecture
 
----
+![Azure](https://img.shields.io/badge/Azure-Data%20Lake%20Gen2-0078D4?style=for-the-badge\&logo=microsoftazure)
+![Architecture](https://img.shields.io/badge/Architecture-Medallion-blue?style=for-the-badge)
+![Storage](https://img.shields.io/badge/Storage-Hierarchical%20Namespace-green?style=for-the-badge)
+![Governance](https://img.shields.io/badge/Data-Governance-orange?style=for-the-badge)
 
-## 📖 Overview
-
-This project simulates an enterprise-grade **Azure Data Lake Storage Gen2** architecture inspired by modern cloud data platforms used by large organizations such as Coca-Cola.
-
-The repository focuses on the organization, storage, and governance of enterprise data following Data Lake best practices and cloud-native architecture principles.
+</div>
 
 ---
 
-## ☁️ Technology Stack
+# 📖 Project Overview
 
-* Microsoft Azure
-* Azure Data Lake Storage Gen2
-* Hierarchical Namespace
-* Structured Data Storage
-* Unstructured Data Storage
-* Metadata Management
+This project simulates an **Enterprise Azure Data Lake Storage Gen2 Architecture** inspired by modern cloud data platforms used by multinational organizations such as Coca-Cola.
+
+The architecture is designed following **Lakehouse and Medallion Architecture principles**, allowing data to be organized, governed, and stored efficiently across multiple layers while maintaining scalability, traceability, and data quality.
+
+The solution demonstrates how enterprise data can be managed from its initial ingestion through trusted business-ready datasets while supporting governance, metadata management, and historical retention.
 
 ---
 
-## 🏗️ Data Lake Architecture
+# 🏛️ Architecture Used
 
-### Data Flow
+## Medallion Architecture
+
+The Data Lake follows the **Medallion Architecture Pattern**, a modern data engineering approach widely adopted in cloud platforms.
 
 ```text
-Landing → Bronze → Silver → Trusted → Archive
+Landing
+   │
+   ▼
+Bronze
+   │
+   ▼
+Silver
+   │
+   ▼
+Trusted
+   │
+   ▼
+Archive
 ```
 
-<p align="center">
-  <img src="images/datalake-architecture.png" width="900">
-</p>
+### Benefits
+
+✅ Scalability
+
+✅ Data Governance
+
+✅ Data Quality Management
+
+✅ Auditability
+
+✅ Historical Preservation
+
+✅ Enterprise Data Management
 
 ---
 
-## 🔵 Landing Layer
+# ☁️ Technology Stack
 
-Initial ingestion area where data arrives directly from source systems in its original format.
+| Component         | Technology                     |
+| ----------------- | ------------------------------ |
+| Cloud Platform    | Microsoft Azure                |
+| Storage           | Azure Data Lake Storage Gen2   |
+| Namespace         | Hierarchical Namespace (HNS)   |
+| Data Organization | Medallion Architecture         |
+| Governance        | Metadata Layer                 |
+| Data Types        | Structured & Unstructured Data |
+| Storage Model     | Data Lake                      |
 
-**Purpose**
+---
+
+# 🏗️ Data Lake Architecture
+
+```text
+                              ┌─────────────────────┐
+                              │ Source Systems      │
+                              │ OLTP • APIs • Files │
+                              └──────────┬──────────┘
+                                         │
+                                         ▼
+                          ┌─────────────────────────┐
+                          │       LANDING           │
+                          │ Raw Source Data         │
+                          └──────────┬──────────────┘
+                                     │
+                                     ▼
+                          ┌─────────────────────────┐
+                          │        BRONZE           │
+                          │ Domain Data Storage     │
+                          └──────────┬──────────────┘
+                                     │
+                                     ▼
+                          ┌─────────────────────────┐
+                          │         SILVER          │
+                          │ Standardized Datasets   │
+                          └──────────┬──────────────┘
+                                     │
+                                     ▼
+                          ┌─────────────────────────┐
+                          │        TRUSTED          │
+                          │ Business Ready Data     │
+                          └──────────┬──────────────┘
+                                     │
+                                     ▼
+                          ┌─────────────────────────┐
+                          │        ARCHIVE          │
+                          │ Historical Retention    │
+                          └─────────────────────────┘
+
+
+             ┌────────────────────────────────────────────┐
+             │               METADATA LAYER               │
+             │ Lineage • Governance • Schemas • Catalog   │
+             └────────────────────────────────────────────┘
+```
+
+---
+
+# 🔵 Landing Layer
+
+The Landing Layer stores data exactly as received from source systems.
+
+## Purpose
 
 * Preserve original source data
-* Maintain traceability
-* Store incoming files without modification
+* Maintain complete traceability
+* Enable data lineage
+* Support future reprocessing
+
+## Data Sources
+
+* OLTP Databases
+* APIs
+* CSV Files
+* Excel Files
+* JSON Files
+* External Data Sources
+
+```text
+landing/
+├── oltp_cocacola_ventas/
+├── oltp_cocacola_clientes/
+├── oltp_cocacola_productos/
+└── external_sources/
+```
 
 ---
 
-## 🟤 Bronze Layer
+# 🟤 Bronze Layer
 
-Raw data storage organized by business domains.
+The Bronze Layer organizes raw business data by enterprise domains.
 
-**Domains**
+## Business Domains
 
 * Sales
 * Customers
@@ -77,103 +172,136 @@ Raw data storage organized by business domains.
 * Marketing
 * Human Resources
 
-<p align="center">
-  <img src="images/bronze-layer.png" width="800">
-</p>
+```text
+bronze/
+├── sales/
+├── customers/
+├── products/
+├── inventory/
+├── logistics/
+├── finance/
+├── production/
+├── marketing/
+└── hr/
+```
 
 ---
 
-## ⚪ Silver Layer
+# ⚪ Silver Layer
 
-Standardized and organized datasets with consistent structures and formats.
+The Silver Layer contains standardized datasets with consistent structures.
 
-**Characteristics**
+## Characteristics
 
-* Structured datasets
-* Standardized schemas
-* Improved consistency
-* Organized business information
+* Standardized formats
+* Consistent schemas
+* Data organization
+* Improved usability
 
-<p align="center">
-  <img src="images/silver-layer.png" width="800">
-</p>
+```text
+silver/
+├── sales/
+├── customers/
+├── products/
+├── inventory/
+├── logistics/
+├── finance/
+├── production/
+└── marketing/
+```
 
 ---
 
-## 🟢 Trusted Layer
+# 🟢 Trusted Layer
 
-Validated and trusted datasets representing the official version of business information.
+The Trusted Layer stores validated and business-ready information.
 
-**Benefits**
+## Benefits
 
 * Reliable datasets
-* Data consistency
-* Enterprise-ready information
+* High-quality information
+* Business consumption
 * Governance compliance
 
-<p align="center">
-  <img src="images/trusted-layer.png" width="800">
-</p>
+```text
+trusted/
+├── sales/
+├── customers/
+├── products/
+├── inventory/
+├── logistics/
+├── finance/
+└── production/
+```
 
 ---
 
-## ⚫ Archive Layer
+# ⚫ Archive Layer
 
-Long-term storage area used for historical retention, auditing, and compliance requirements.
+Long-term historical storage used for compliance and auditing.
 
-**Benefits**
+## Benefits
 
 * Historical preservation
 * Regulatory compliance
 * Audit support
-* Data recovery
+* Disaster recovery
+
+```text
+archive/
+```
 
 ---
 
-## 🧠 Metadata Layer
+# 🧠 Metadata Layer
 
-Provides governance and management information for all datasets stored in the Data Lake.
+Provides governance and management capabilities across the Data Lake.
 
-**Includes**
+## Includes
 
 * Data Lineage
-* Source Systems
+* Data Catalog
 * Dataset Descriptions
 * Schema Definitions
+* Source Systems
 * Ingestion Timestamps
+* Ownership Information
 
-<p align="center">
-  <img src="images/metadata-layer.png" width="800">
-</p>
+```text
+metadata/
+```
 
 ---
 
-## 📦 Unstructured Data
+# 📦 Unstructured Data Zone
 
-Storage area for non-relational content.
+Stores non-relational enterprise information.
 
-**Examples**
+## Examples
 
 * Images
-* PDFs
 * Videos
+* PDFs
 * Documents
 * Logs
 * Multimedia Files
 
-<p align="center">
-  <img src="images/unstructured-data.png" width="800">
-</p>
+```text
+unstructured/
+```
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 datalake/
 │
 ├── landing/
-│   └── oltp_cocacola_ventas/
+│   ├── oltp_cocacola_ventas/
+│   ├── oltp_cocacola_clientes/
+│   ├── oltp_cocacola_productos/
+│   └── external_sources/
 │
 ├── bronze/
 │   ├── sales/
@@ -187,54 +315,59 @@ datalake/
 │   └── hr/
 │
 ├── silver/
-│   ├── sales/
-│   ├── customers/
-│   ├── products/
-│   ├── inventory/
-│   ├── logistics/
-│   ├── finance/
-│   ├── production/
-│   └── marketing/
 │
 ├── trusted/
-│   ├── sales/
-│   ├── customers/
-│   ├── products/
-│   ├── inventory/
-│   ├── logistics/
-│   ├── finance/
-│   └── production/
 │
 ├── metadata/
+│
 ├── unstructured/
+│
 └── archive/
 ```
 
 ---
 
-## 🎯 Project Objective
+# 🎯 Project Objective
 
-Design and document a scalable Azure Data Lake Storage Gen2 architecture demonstrating enterprise-level storage organization, governance, and cloud data management practices.
+Design and document an enterprise-scale Azure Data Lake Storage Gen2 architecture demonstrating:
 
----
-
-## ⚠️ Scope
-
-This project represents only the Data Lake storage architecture and does not include:
-
-* ETL / ELT Pipelines
-* Azure Data Factory
-* Azure Synapse Analytics
-* Data Warehouse
-* Data Marts
-* Power BI Dashboards
-* Machine Learning
-* Advanced Analytics
+* Data Lake best practices
+* Cloud-native storage design
+* Data governance principles
+* Metadata management
+* Domain-driven organization
+* Enterprise data lifecycle management
 
 ---
 
-## 👨‍💻 Author
+# 🚀 Key Features
+
+✔ Azure Data Lake Storage Gen2
+
+✔ Hierarchical Namespace (HNS)
+
+✔ Medallion Architecture
+
+✔ Metadata Management
+
+✔ Data Governance
+
+✔ Structured Data Storage
+
+✔ Unstructured Data Storage
+
+✔ Historical Data Retention
+
+✔ Enterprise Domain Organization
+
+✔ Scalable Cloud Architecture
+
+---
+
+# 👨‍💻 Author
 
 **Lucas David**
 
-Data Engineering Portfolio Project
+Enterprise Data Engineering Project
+
+Azure Data Lake Storage Gen2 Architecture
