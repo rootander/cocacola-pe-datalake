@@ -69,50 +69,10 @@ The Data Lake follows the **Medallion Architecture Pattern**, a modern data engi
 
 ---
 
-# 🏗️ Data Lake Architecture
-
-```text
-                              ┌─────────────────────┐
-                              │ Source Systems      │
-                              │ OLTP • APIs • Files │
-                              └──────────┬──────────┘
-                                         │
-                                         ▼
-                          ┌─────────────────────────┐
-                          │       LANDING           │
-                          │ Raw Source Data         │
-                          └──────────┬──────────────┘
-                                     │
-                                     ▼
-                          ┌─────────────────────────┐
-                          │        BRONZE           │
-                          │ Domain Data Storage     │
-                          └──────────┬──────────────┘
-                                     │
-                                     ▼
-                          ┌─────────────────────────┐
-                          │         SILVER          │
-                          │ Standardized Datasets   │
-                          └──────────┬──────────────┘
-                                     │
-                                     ▼
-                          ┌─────────────────────────┐
-                          │        TRUSTED          │
-                          │ Business Ready Data     │
-                          └──────────┬──────────────┘
-                                     │
-                                     ▼
-                          ┌─────────────────────────┐
-                          │        ARCHIVE          │
-                          │ Historical Retention    │
-                          └─────────────────────────┘
-
-
-             ┌────────────────────────────────────────────┐
-             │               METADATA LAYER               │
-             │ Lineage • Governance • Schemas • Catalog   │
-             └────────────────────────────────────────────┘
-```
+# 🏗️ Arquitectura y Flujo de Datos de la Plataforma Empresarial Coca-Cola Perú
+<p align="center">
+  <img src="docs/architecture.png" width="1000">
+</p>
 
 ---
 
