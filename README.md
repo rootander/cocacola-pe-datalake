@@ -364,7 +364,6 @@ Design and document an enterprise-scale Azure Data Lake Storage Gen2 architectur
 
 ---
 
-# 👨‍💻 Author
 
 # 👨‍💻 Authors
 
