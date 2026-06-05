@@ -366,8 +366,10 @@ Design and document an enterprise-scale Azure Data Lake Storage Gen2 architectur
 
 # 👨‍💻 Author
 
-**Lucas Cocha**
-**Quispe Sebastian**
+# 👨‍💻 Authors
+
+- Lucas Cocha — Cloud Engineer
+- Quispe Sebastian — Data Analyst
 
 Enterprise Data Engineering Project
 
