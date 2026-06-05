@@ -1,0 +1,21 @@
+id_vendedor,dni_vendedor,nombre_vendedor,apellido_vendedor,telefono_vendedor,zona_asignada,ciudad_asignada,id_sede_cocacola
+1,40000001,Roberto,Gomez,999888771,Lima Este,Lima,1
+2,40000002,Alberto,Diaz,999888772,Lima Centro,Lima,1
+3,40000003,Hugo,Paredes,999888773,Callao,Callao,2
+4,40000004,Paco,Salazar,999888774,Callao,Callao,2
+5,40000005,Luis,Mejia,999888775,Lima Sur,Lima,3
+6,40000006,Martin,Lujan,999888776,Lima Sur,Lima,3
+7,40000007,Victor,Cruz,999888777,Lima Norte,Lima,1
+8,40000008,Julio,Reyes,999888778,Lima Norte,Lima,1
+9,40000009,Oscar,Pinto,999888779,Lima Este,Lima,1
+10,40000010,Ivan,Guerra,999888780,Callao,Callao,2
+11,40000011,Renzo,Valdez,999888781,Lima Sur,Lima,3
+12,40000012,Cesar,Blanco,999888782,Lima Centro,Lima,1
+13,40000013,Mario,Luna,999888783,Lima Norte,Lima,1
+14,40000014,Omar,Cabrera,999888784,Lima Sur,Lima,3
+15,40000015,Felix,Molina,999888785,Callao,Callao,2
+16,40000016,David,Acosta,999888786,Lima Este,Lima,1
+17,40000017,Sergio,Paz,999888787,Lima Centro,Lima,1
+18,40000018,Pablo,Vera,999888788,Lima Norte,Lima,1
+19,40000019,Raul,Soto,999888789,Lima Sur,Lima,3
+20,40000020,Bruno,Gil,999888790,Callao,Callao,2

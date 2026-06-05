@@ -1,0 +1,21 @@
+id_producto,nombre_producto,precio_actual,estado_producto,nombre_categoria,nombre_marca
+1,Coca-Cola 3L,10,50,Activo,Gaseosas,Coca-Cola
+2,Coca-Cola 1.5L,6,00,Activo,Gaseosas,Coca-Cola
+3,Coca-Cola 500ml,2,50,Activo,Gaseosas,Coca-Cola
+4,Coca-Cola Zero 1.5L,6,00,Activo,Gaseosas,Coca-Cola
+5,Inca Kola 3L,10,50,Activo,Gaseosas,Inca Kola
+6,Inca Kola 1.5L,6,00,Activo,Gaseosas,Inca Kola
+7,Inca Kola 500ml,2,50,Activo,Gaseosas,Inca Kola
+8,Inca Kola Zero 1.5L,6,00,Activo,Gaseosas,Inca Kola
+9,Sprite 1.5L,5,50,Activo,Gaseosas,Sprite
+10,Sprite 500ml,2,00,Activo,Gaseosas,Sprite
+11,Fanta 1.5L,5,50,Activo,Gaseosas,Fanta
+12,Fanta 500ml,2,00,Activo,Gaseosas,Fanta
+13,San Luis Sin Gas 2.5L,4,50,Activo,Aguas,San Luis
+14,San Luis Sin Gas 625ml,1,50,Activo,Aguas,San Luis
+15,San Luis Con Gas 625ml,1,50,Activo,Aguas,San Luis
+16,Frugos Durazno 1L,4,00,Activo,Jugos,Coca-Cola
+17,Frugos Manzana 1L,4,00,Activo,Jugos,Coca-Cola
+18,Frugos Naranja 1L,4,00,Activo,Jugos,Coca-Cola
+19,Powerade Mountain Blast 500ml,3,00,Activo,Isotónicos,Coca-Cola
+20,Powerade Frutas Tropicales 500ml,3,00,Activo,Isotónicos,Coca-Cola

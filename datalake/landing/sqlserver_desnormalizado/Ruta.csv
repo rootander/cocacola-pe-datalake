@@ -1,0 +1,22 @@
+id_ruta,descripcion_ruta,zona_ruta,ciudad_ruta
+0,No Aplica - Recojo en Planta,No Aplica,No Aplica
+1,Ruta LN-Lunes-01,Lima Norte,Lima
+2,Ruta LN-Martes-02,Lima Norte,Lima
+3,Ruta LN-Miercoles-03,Lima Norte,Lima
+4,Ruta LN-Jueves-04,Lima Norte,Lima
+5,Ruta LS-Lunes-01,Lima Sur,Lima
+6,Ruta LS-Martes-02,Lima Sur,Lima
+7,Ruta LS-Miercoles-03,Lima Sur,Lima
+8,Ruta LS-Jueves-04,Lima Sur,Lima
+9,Ruta LE-Lunes-01,Lima Este,Lima
+10,Ruta LE-Martes-02,Lima Este,Lima
+11,Ruta LE-Miercoles-03,Lima Este,Lima
+12,Ruta LE-Jueves-04,Lima Este,Lima
+13,Ruta LC-Lunes-01,Lima Centro,Lima
+14,Ruta LC-Martes-02,Lima Centro,Lima
+15,Ruta LC-Miercoles-03,Lima Centro,Lima
+16,Ruta LC-Jueves-04,Lima Centro,Lima
+17,Ruta CAL-Lunes-01,Callao,Callao
+18,Ruta CAL-Martes-02,Callao,Callao
+19,Ruta CAL-Miercoles-03,Callao,Callao
+20,Ruta CAL-Jueves-04,Callao,Callao

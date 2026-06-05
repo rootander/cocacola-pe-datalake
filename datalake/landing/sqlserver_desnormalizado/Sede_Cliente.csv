@@ -1,0 +1,21 @@
+id_sede,id_empresa,id_representante,nombre_comercial,direccion_sede,tipo_cliente,zona_cliente,ciudad_cliente
+1,1,1,Local Principal Sur,Av. Los Héroes 123,Mayorista,Lima Sur,Lima
+2,2,2,Minimarket Pinos Norte,Av. Tupac Amaru 456,Minimarket,Lima Norte,Lima
+3,3,3,Bodega Central Este,Jr. Los Claveles 789,Bodega,Lima Este,Lima
+4,4,4,Plaza Vea Centro,Av. Tacna 101,Supermercado,Lima Centro,Lima
+5,5,5,Comercial El Sol,Av. Argentina 202,Mayorista,Callao,Callao
+6,6,6,Distribuidora Callao,Av. Saenz Peña 303,Mayorista,Callao,Callao
+7,7,7,Bodega San Judas Sur,Av. San Juan 404,Bodega,Lima Sur,Lima
+8,8,8,Express Norte,Av. Universitaria 505,Minimarket,Lima Norte,Lima
+9,9,9,Mercado Este,Av. Proceres 606,Mayorista,Lima Este,Lima
+10,10,10,Inversiones Norte,Av. Izaguirre 707,Mayorista,Lima Norte,Lima
+11,11,11,Esquina Sur,Av. Benavides 808,Minimarket,Lima Sur,Lima
+12,12,12,Bodega Pepe Este,Av. Gran Chimú 909,Bodega,Lima Este,Lima
+13,13,13,Mayorista Callao,Av. Colonial 111,Mayorista,Callao,Callao
+14,14,14,San Carlos Centro,Av. Arequipa 222,Minimarket,Lima Centro,Lima
+15,15,15,Bodega Santa Rosa,Av. Brasil 333,Bodega,Lima Centro,Lima
+16,16,16,Distribuciones Sur,Av. Pedro Miotta 444,Mayorista,Lima Sur,Lima
+17,17,17,24 Horas Norte,Av. Tomas Valle 555,Minimarket,Lima Norte,Lima
+18,18,18,Conveniencia Este,Av. Las Flores 666,Minimarket,Lima Este,Lima
+19,19,19,Buen Vecino Centro,Jr. de la Unión 777,Bodega,Lima Centro,Lima
+20,20,20,Globales Callao,Av. Guardia Chalaca 888,Mayorista,Callao,Callao
